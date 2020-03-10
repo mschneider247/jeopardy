@@ -1,25 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1>Welcome!</h1>
+        <h4>Are you ready for a game of Jeopardy?!</h4>
+        <h5>invite your friends!</h5>
       </header>
+      <section>
+        Player name input
+      </section>
+      <section>
+        This is the question board!
+      </section>
+      <section>
+        This is where the questions get asked!!
+      </section>
     </div>
+
   );
 }
 
